@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+h1{
+   color: red; 
+}
+
+.item.skills{
+   width: 70px;
+   text-align: center;
+
+}
+.display-skills{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}

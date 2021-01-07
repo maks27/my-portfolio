@@ -14,3 +14,21 @@ h1{
    justify-content: space-evenly;
    flex-wrap: wrap;
 }
+#root{
+   background-image: linear-gradient(rgb(245, 243, 231),rgb(245, 238, 200));
+}  
+#root,.app.container-fluid,.row{
+   min-height: 100vh;
+}
+.sections{
+   margin-top: 40px;
+}
+.col-2.side-bar{
+   background-color: rgb(180, 179, 158);
+   @media screen and (max-width: 800px){
+      display: none;
+   }
+}
+.sidebar-content{
+   margin-top: 30px;
+}

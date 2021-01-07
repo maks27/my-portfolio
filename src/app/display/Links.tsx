@@ -1,11 +1,10 @@
 import React from 'react';
-import { Container, Header, List } from 'semantic-ui-react';
+import {  Divider, Header, List } from 'semantic-ui-react';
 
 const Links = () =>{
   return (
-    <div>
+    <div className="sections">
     <Header size='large' className="text-center">Linki do projektów</Header>
-    <Container text>
     <List divided relaxed>
     <List.Item>
       <List.Icon name='github' size='large' verticalAlign='middle' />
@@ -29,7 +28,7 @@ const Links = () =>{
       </List.Content>
     </List.Item>
   </List>
-  </Container>
+  <Divider />
   </div>
   );
 }

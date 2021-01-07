@@ -1,17 +1,32 @@
-import React from 'react'
-import { Header } from 'semantic-ui-react'
+import React from "react";
+import { Container, Divider, Header } from "semantic-ui-react";
 
 const AboutMe = () => {
-    return (
-        <div>
-            <Header size='large' className="text-center">O mnie</Header>
-            
-            Doesn't anyone stay dead anymore? Come on! You belong to me... I'm the famous comedian, arnold brownswagger. Rubber-baby-buggy-bumbers. Here is sub zero. This hero stuff has it's limits. You this this is the real quade? Who are you?
-            C-coo-ool. Take it back. You got what you want. Grant me revenge. This is war. The ice age. Shuuuuuttttuuuuup! This man is under arrest. I'll live to see you eat that contract. Well that hit the spot...
-            That's for sleeping with my wife. Talk to the hand. That's for sleeping with my wife. Look who's talking. This is war. A choir boy!'
-            It's showtime. Now! I'm the famous comedian, arnold brownswagger. I'm going to ask you a bunch of questions. This man is under arrest.
-        </div>
-    )
-}
+  return (
+    <div className="sections">
+      <Container textAlign="justified" fluid>
+        <Header size="large" className="text-center">
+          O mnie
+        </Header>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+          aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+          imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link
+          mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+          semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+          porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+          dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
+          ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
+          ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+        </p>
+        <Divider />
+      </Container>
+    </div>
+  );
+};
 
-export default AboutMe
+export default AboutMe;

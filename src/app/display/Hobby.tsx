@@ -1,20 +1,31 @@
 import React from 'react'
-import { Header } from 'semantic-ui-react'
+import { Container, Divider, Header } from 'semantic-ui-react'
 
 const Hobby = () => {
     return (
-        <div>
-             <Header size='large' className="text-center">Zainteresowania</Header>
-            Now! Let's kick some ice. Doesn't anyone stay dead anymore? I'm back. Gimme the goddam page! You did not make a victor.
-
-            You're a funny guy sully... One of us is in deep trouble. Look who's talking. Cool off. It's just a scratch. Kill me! Only pain. C-coo-ool. I do not want to touch his ass.
-
-            No i don't stop it. Excuse me. Come on bennet, let's party. And if you do not listen, then to hell with you. Let's kick some ice. The pavement with his enemy.
-
-            I lied! Only pain. Put the cookie down. You are not you you're me. You're fired... Give you a lift? I'm a cop you idiot! Como esta. But i'm all woman. Go on! Shuuuuuttttuuuuup! My name is not quade.
-
-
-        </div>
+        <div className="sections">
+        <Container textAlign="justified" fluid>
+          <Header size="large" className="text-center">
+            Zainteresowania
+          </Header>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+            dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
+            ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
+            ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+          </p>
+          <Divider />
+        </Container>
+      </div>
     )
 }
 

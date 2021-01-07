@@ -1,18 +1,19 @@
-import React, { Fragment } from 'react'
-import { Header, List } from 'semantic-ui-react'
+import React from 'react'
+import { Divider, Header } from 'semantic-ui-react'
 // @ts-ignore
 import ListItem from './ListItem';
 
 const Skills = () => {
    
     return (
-    <Fragment>
+    <div className="sections">
     <Header size='large'className="text-center">Umiejętności</Header>
       {// @ts-ignore
         <ListItem/>
       }
+        <Divider />
 
-    </Fragment>
+    </div>
     )
 }
 

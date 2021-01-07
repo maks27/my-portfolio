@@ -4,7 +4,7 @@ import { Container, Divider, Header } from "semantic-ui-react";
 const AboutMe = () => {
   return (
     <div className="sections">
-      <Container textAlign="justified" fluid>
+      <Container textAlign='left' fluid>
         <Header size="large" className="text-center">
           O mnie
         </Header>

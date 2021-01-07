@@ -3,8 +3,11 @@ h1{
    color: red; 
 }
 p{
-   word-spacing: normal;
-   text-indent: 15px;
+   word-spacing: 2px;
+   @media screen and (max-width: 600px){
+      word-spacing: normal;
+
+      }
 }
 .item.skills{
    width: 70px;

@@ -24,7 +24,14 @@ const Links = () =>{
       <List.Icon name='github' size='large' verticalAlign='middle' />
       <List.Content>
         <List.Header as='a' href="https://github.com/maks27/WebServer_NodeExpress">Web server Express</List.Header>
-        <List.Description>Prosty serwer WWW wykorzystujący framework express </List.Description>
+        <List.Description>Prosty serwer WWW wykorzystujący framework Express </List.Description>
+      </List.Content>
+    </List.Item>
+    <List.Item>
+      <List.Icon name='github' size='large' verticalAlign='middle' />
+      <List.Content>
+        <List.Header as='a' href="https://github.com/maks27/React-Redux-app">React-redux-app</List.Header>
+        <List.Description>Dynamiczny konfigurator stworzony z wykorzystaniem React Redux oraz Bootstrap</List.Description>
       </List.Content>
     </List.Item>
   </List>

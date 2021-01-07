@@ -1,33 +1,25 @@
-import React from 'react'
-import { Container, Divider, Header } from 'semantic-ui-react'
+import React from "react";
+import { Container, Divider, Header } from "semantic-ui-react";
 
 const Hobby = () => {
-    return (
-        <div className="sections">
-        <Container textAlign="justified" fluid>
-          <Header size="large" className="text-center">
-            Zainteresowania
-          </Header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-            dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
-            ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-            ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
-          </p>
-          <Divider />
-        </Container>
-      </div>
-    )
-}
+  return (
+    <div className="sections">
+      <Container textAlign="justified" fluid>
+        <Header size="large" className="text-center">
+          Zainteresowania
+        </Header>
+        <p>
+          Posiadam szeroki zakres zainteresowań. W wolnym czasie zajmuje się
+          projektowaniem gry przy wykorzystaniu środowiska Unity, która mam
+          nadzieję, kiedyś doczeka się premiery. Oprócz tego moją pasją jest
+          muzyka, a w szczególności gra na gitarze. Interesuje się także
+          zwierzętami egzotycznymi takimi jak gekony lamparcie, których w tym
+          momencie posiadam, aż 10 sztuk.
+        </p>
+        <Divider />
+      </Container>
+    </div>
+  );
+};
 
-export default Hobby
-
+export default Hobby;

@@ -18,7 +18,7 @@ function ListItem() {
     "Html5",
     "Bootstrap",
     "Unity_small",
-    "Sqllite",
+    "SQLlite",
   ];
   const list = lang.map((value) => {
     let valuename = value;
@@ -29,7 +29,7 @@ function ListItem() {
           icon={value.toLocaleLowerCase().toString()}
           style={devIconStyle}
         />
-        <List.Content>{valuename}</List.Content>
+        <List.Content className="font-weight-bold">{valuename}</List.Content>
       </List.Item>
     );
   });
@@ -41,7 +41,7 @@ function ListItem() {
           style={devIconStyle}
           alt="blender"
         />
-        <List.Content>Blender</List.Content>
+        <List.Content className="font-weight-bold">Blender</List.Content>
       </List.Item>
       {list}
     </List>

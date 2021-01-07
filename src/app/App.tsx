@@ -10,14 +10,14 @@ function App() {
   <div className="app">
    <div className="container-fluid">
      <div className="row">
-     <div className="col-2 col-0 side-bar"><SideBar/></div>
+     <div className="col-xl-2 col-lg-3 col-12 side-bar"><SideBar/></div>
        <div className="col-lg-8 col-md-10 main-content">
       <AboutMe/>
       <Hobby/>
       <Skills/>
       <Links/>
       </div>
-      <div className="col-0 col-lg-2"></div>
+      <div className="col-0 col-xl-2"></div>
       </div>
    </div>
    </div>

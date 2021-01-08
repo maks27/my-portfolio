@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @mixin flex($content) {
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

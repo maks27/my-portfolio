@@ -58,13 +58,13 @@ p {
   .sidebar-content {
     margin-top: 30px;
     @media screen and (max-width: 1000px) {
-      @include flex(space-around);
-      margin-top: 5px;
+      @include flex(space-evenly)
     }
-    img.ui.medium.rounded.image{
-      @media screen and (max-width: 560px) {
-        max-width: 300px;
-        max-height: 225px;
+    img.ui.rounded.image{
+      @media screen and (max-width: 1000px) {
+        height: 250px;
+        width: 300px;
+        
       }
     }
     .ui.list.contact-info {
@@ -74,24 +74,15 @@ p {
         a{
           text-shadow: 2px 2px 6px rgb(127, 154, 241);
         }
-
       }
-      @media screen and (max-width: 1000px) {
-        margin: 5;
-      }
-      @media screen and (max-width: 560px) {
-        .item {
-          align-self: center;
-        }
-
-        @include flex(center);
-        flex-grow: 1;
+      @media screen and (max-width: 550px) {
+        @include flex(center)
       }
     }
+
   }
 }
 .col-lg-8.col-md-10.main-content {
-  
   @media screen and (max-width: 1000px) {
     margin: 0 auto;
   }

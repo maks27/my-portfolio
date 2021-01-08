@@ -6,7 +6,6 @@ function SideBar() {
     <div className="sidebar-content">
       <Image
         src="https://aduu.pl/wp-content/uploads/2019/04/placeholder-image.jpg"
-        size="medium"
         rounded
       />
       <List className="contact-info">

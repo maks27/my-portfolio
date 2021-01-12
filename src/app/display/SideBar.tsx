@@ -1,11 +1,11 @@
 import React from "react";
 import { Divider, Image, List } from "semantic-ui-react";
-
+import photo from './Image/image.jpg'
 function SideBar() {
   return (
     <div className="sidebar-content">
       <Image
-        src="https://aduu.pl/wp-content/uploads/2019/04/placeholder-image.jpg"
+        src={photo}
         rounded
       />
       <List className="contact-info">

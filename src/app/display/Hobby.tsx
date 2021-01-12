@@ -9,7 +9,7 @@ const Hobby = () => {
           Zainteresowania
         </Header>
         <p>
-          Posiadam szeroki zakres zainteresowań. W wolnym czasie zajmuje się
+          Posiadam szeroki zakres zainteresowań. W wolnym czasie zajmuję się
           projektowaniem gry przy wykorzystaniu środowiska Unity, która mam
           nadzieję, kiedyś doczeka się premiery. Poza tym moją pasją jest muzyka, 
           a w szczególności gra na gitarze. Interesuje się także zwierzętami egzotycznymi. 

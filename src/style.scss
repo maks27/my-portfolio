@@ -58,12 +58,15 @@ p {
   .sidebar-content {
     margin-top: 30px;
     @media screen and (max-width: 1000px) {
-      @include flex(space-evenly)
+      @include flex(space-evenly);
+      margin-top: 10px;
     }
     img.ui.rounded.image{
       @media screen and (max-width: 1000px) {
+        margin-top: 25px;
         height: 250px;
-        width: 300px;
+        width: 200px;
+        border: 1px solid rgb(158, 156, 156);
         
       }
     }
@@ -75,6 +78,7 @@ p {
           text-shadow: 2px 2px 6px rgb(127, 154, 241);
         }
       }
+    
       @media screen and (max-width: 550px) {
         @include flex(center)
       }

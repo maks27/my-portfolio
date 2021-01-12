@@ -34,6 +34,13 @@ const Links = () =>{
         <List.Description>Dynamiczny konfigurator stworzony z wykorzystaniem React Redux oraz Bootstrap</List.Description>
       </List.Content>
     </List.Item>
+    <List.Item>
+      <List.Icon name='github' size='large' verticalAlign='middle' />
+      <List.Content>
+        <List.Header as='a' href="https://github.com/maks27/React-.net">React.ts + .Net</List.Header>
+        <List.Description>Aplikacja którą tworzę wraz z kursem .Net Core i React typescript na platformie Udemy </List.Description>
+      </List.Content>
+    </List.Item>
   </List>
   <Divider />
   </div>

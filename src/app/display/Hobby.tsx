@@ -9,11 +9,15 @@ const Hobby = () => {
           Zainteresowania
         </Header>
         <p>
-          Posiadam szeroki zakres zainteresowań. W wolnym czasie zajmuję się
-          projektowaniem gry przy wykorzystaniu środowiska Unity, która mam
-          nadzieję, kiedyś doczeka się premiery. Poza tym moją pasją jest muzyka, 
-          a w szczególności gra na gitarze. Interesuje się także zwierzętami egzotycznymi. 
-          Aktualnie hoduje gekony lamparcie. 
+          Jedną z moich największych pasji jest muzyka – w wolnych chwilach
+          tworzę nowe riffy jako gitarzysta lokalnego zespołu. Fascynują mnie
+          zwierzęta, szczególnie egzotyczne. Aktualnie hoduje gekony lamparcie.
+          Jako fan wszelkiego rodzaju RPG od kilku miesięcy rozwijam własny
+          projekt gry, przy wykorzystaniu środowiska Unity. Zgromadziłem mały
+          zespół i konsekwentnie pracuję nad tym, aby tytuł doczekał się
+          premiery. Zacząłem również pracę nad komercyjnym projektem strony do
+          obsługi salonu sukni ślubnych, z wykorzystaniem technologii React,
+          Reduxa oraz .Net .
         </p>
         <Divider />
       </Container>

@@ -4,16 +4,19 @@ import { Container, Divider, Header } from "semantic-ui-react";
 const AboutMe = () => {
   return (
     <div className="sections">
-       <Header size="large" className="text-center">
-          O mnie
+      <Header size="large" className="text-center">
+        O mnie
       </Header>
       <Container textAlign="justified" fluid>
         <p>
-          Nazywam się Maksymilian Pliszczyński. Posiadam tytuł inżyniera, uzyskany na Uniwersytecie Warmińsko-Mazurskim w Olsztynie.
-          Aktualnie jestem w trakcie poszukiwania pierwszej pracy w dziale IT. Najbardziej chciałbym się
-          rozwijać w kierunku Full-stack developer, ponieważ zarówno tworzenie
-          back-endu jak i front-endu strony sprawia mi wielką satysfakcję.
-          </p>
+          Jestem Maks – młody informatyk z ogromnymi ambicjami, analitycznym
+          umysłem i kreatywną duszą. Posiadam tytuł inżyniera, uzyskany na
+          Uniwersytecie Warmińsko-Mazurskim w Olsztynie. Większość czasu
+          poświęcam na rozwijanie umiejętności programistycznych. Aktualnie
+          jestem w trakcie poszukiwania pracy w dziale IT. Największą
+          satysfakcję sprawia mi tworzenie back-endu i front-endu strony,
+          dlatego interesuje mnie rozwój w kierunku full-stack developera.
+        </p>
         <Divider />
       </Container>
     </div>
